@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 const InitialVariable = () => {
     const titleTab = [{
-        "title": "Trang chủ",
+        "title": "HOME",
         "link": "#home",
         "class": ""
     }, {
-        "title": "Giới thiệu",
+        "title": "ABOUT",
         "link": "#about",
         "class": ""
     }, {
-        "title": "CLB/DA",
+        "title": "CLUBS/PROJECTS",
         "link": "#clbda",
         "class": ""
     }, {
-        "title": "Liên hệ",
+        "title": "CONTACT",
         "link": "#contact",
         "class": ""
     }, {
