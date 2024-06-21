@@ -48,7 +48,7 @@ function About({ initial }: any) {
         <div className="about__container grid">
             <div className="about__data">
                 <h2 className="section__title about__title">
-                    Đoàn trường THPT Chuyên <br /> Trần Đại Nghĩa
+                    Tran Dai Nghia<br /> High School For The Gifted <br /> Youth Union
                 </h2>
 
                 <p className="about__description">
@@ -57,7 +57,7 @@ function About({ initial }: any) {
                     Văn phòng Đoàn là Nhà trong Nhà
                 </p>
                 <a href="/doantruong" className="button button--flex">
-                    Tìm hiểu thêm <i className="ri-arrow-right-down-line button__icon"></i>
+                    More info <i className="ri-arrow-right-down-line button__icon"></i>
                 </a>
             </div>
         </div>

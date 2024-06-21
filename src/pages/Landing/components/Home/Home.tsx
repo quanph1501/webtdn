@@ -36,7 +36,7 @@ function Home({ initial }: any) {
             </div>
             <div className="home__data">
                 <h1 className="home__title">
-                    Tran Dai Nghia <br /> High School For The Gifted <br /> Youth Union
+                    Tran Dai Nghia <br /> High School<br/> For The Gifted <br /> Youth Union
                 </h1>
                 <p className="home__description">
                     Lửa Trần Chuyên truyền đi là không bao giờ tắt

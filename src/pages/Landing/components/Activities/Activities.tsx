@@ -46,7 +46,7 @@ function activities({ initial }: any) {
     return <section className="activities section container" id='activities'>
         <div className="activities__bg">
             <h2 className="section__title-center activities__title">
-                Các hoạt động nổi bật
+                Popular activities
             </h2>
 
             <div className="activities__container grid">

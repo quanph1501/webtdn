@@ -69,7 +69,7 @@ function CLB_DA({ initial }: any) {
     const { clbinfo } = DataClb();
     return <section className="clbdas section" id="clbda">
         <h2 className="section__title-center clbdas__title container">
-            CÂU LẠC BỘ - DỰ ÁN
+            CLUBS - PROJECTS
         </h2>
         <div className='clbdas__filters'>
             <button
@@ -80,11 +80,11 @@ function CLB_DA({ initial }: any) {
                 <i className="ri-arrow-left-s-line clbdas__filters-icon"></i>
             </button>
             <div className='clbdas__slider'>
-                <span className="clbdas__item active-clbdas" data-filter="all">Tất cả</span>
-                <span className="clbdas__item" data-filter=".vh">Văn hóa</span>
-                <span className="clbdas__item" data-filter=".knnt">Kỹ năng - nghệ thuật</span>
-                <span className="clbdas__item" data-filter=".httt">Học thuật - thông tin</span>
-                <span className="clbdas__item" data-filter=".khxhda">Khoa học xã hội - dự án</span>
+                <span className="clbdas__item active-clbdas" data-filter="all">ALL</span>
+                <span className="clbdas__item" data-filter=".vh">CULTURE</span>
+                <span className="clbdas__item" data-filter=".knnt">SKILL - ART</span>
+                <span className="clbdas__item" data-filter=".httt">ACADEMIC - INFORMATIVE</span>
+                <span className="clbdas__item" data-filter=".khxhda">SOCIAL SCIENCE - PROJECTS</span>
             </div>
             <button
                 onClick={handleNextClick}
