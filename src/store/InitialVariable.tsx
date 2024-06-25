@@ -20,6 +20,10 @@ const InitialVariable = () => {
         "title": "BOOKFLIX",
         "link": "/bookflix",
         "class": "btn-link"
+    }, {
+        "title": "English",
+        "link": "/english",
+        "class": "btn-link"
     }];
     // {
     //     "title": "Sản phẩm",
