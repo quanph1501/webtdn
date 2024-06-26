@@ -27,7 +27,7 @@ const publicRoutes = [
     { path: "/bookflix/baiviet/:articleId", compnent: BaiVietGocNhinMoi },
     { path: "/login&register", compnent: LoginRegister },
     { path: "/bookflix/bookinfo/:bookId", compnent: BookInfo },
-    { path: "/english", compnent: English },
+    { path: "/en", compnent: English },
     { path: "*", compnent: Notfound },
 ]
 

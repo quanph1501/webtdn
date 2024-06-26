@@ -22,7 +22,7 @@ const InitialVariable = () => {
         "class": "btn-link"
     }, {
         "title": "EN",
-        "link": "/english",
+        "link": "/en",
         "class": "btn-link"
     }];
     // {
