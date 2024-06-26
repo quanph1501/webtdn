@@ -21,8 +21,8 @@ const InitialVariable_english = () => {
         "link": "/bookflix",
         "class": "btn-link"
     }, {
-        "title": "English",
-        "link": "/english",
+        "title": "VI",
+        "link": "/",
         "class": "btn-link"
     }];
     // {
