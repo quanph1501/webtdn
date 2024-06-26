@@ -1,4 +1,5 @@
 export { default as InitialVariable } from './InitialVariable'
+export { default as InitialVariable_english } from './InitialVariable_english'
 export { default as DataClb } from './DataClb'
 export { default as infoDoanTruong } from './infoDoanTruong'
 export { default as trian } from './trianData'

@@ -1,4 +1,5 @@
 export { default as Header } from './Header/Header'
+export { default as Header_english } from './Header/Header_english'
 export { default as Home } from './Home/Home'
 export { default as Brainstorm } from './Brainstorm/Brainstorm'
 export { default as About } from './About/About'
