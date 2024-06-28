@@ -63,22 +63,22 @@ const InitialVariable_english = () => {
     const activities = [
         {
             img: "/activities/3.jpg",
-            title: "HOA PHƯỢNG ĐỎ",
-            subtitle: "Chiến dịch Tình nguyện hè",
+            title: "Red Flamboyant Flower Campaign",
+            subtitle: "Summer volunteer campaign",
             bq: "Website có sử dụng một số hình ảnh từ Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
             link: "hots/hpd",
             // linkFB: "https://www.facebook.com/759662799498945"
         }
         , {
             img: "/activities/1.jpg",
-            title: "Lễ hội âm nhạc",
+            title: "Music Festival",
             subtitle: "",
             bq: "Website có sử dụng một số hình ảnh từ Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
             link: "hots/lhan",
             // linkFB: "https://www.facebook.com/541613061448202"
         }, {
             img: "/activities/2.jpg",
-            title: "Lễ tri ân /và trưởng thành",
+            title: "Honor and Graduation Day",
             subtitle: "",
             bq: "Website có sử dụng một số hình ảnh từ Dự án khối 12, Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
             link: "hots/lta&th",

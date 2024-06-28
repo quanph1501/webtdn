@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Fragment } from 'react';
-import { Header_english, Home_english, About_english, Activities_english, Brainstorm, CLB_DA_english, Contact, Footer, Scrollup, Trian } from "../Landing/components"
+import { Header_english, Home_english, About_english, Activities_english, Brainstorm, CLB_DA_english, Contact, Footer, Scrollup, Trian_english } from "../Landing/components"
 import InitialVariable_english from "../../store/InitialVariable_english";
 function English() {
     const initialVar = InitialVariable_english();
@@ -87,7 +87,7 @@ function English() {
             <Activities_english initial={initialVar} />
             {/* <Products initial={initialVar} /> */}
             <CLB_DA_english initial={initialVar} />
-            <Trian />
+            <Trian_english />
             <Contact initial={initialVar} />
         </main>
         <Footer initial={initialVar} />
