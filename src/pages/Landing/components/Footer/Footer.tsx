@@ -73,7 +73,7 @@ function Footer({ initial }: any) {
             </div> */}
         </div>
 
-        <p
+        {/* <p
             onClick={() => {
                 window.location.href = "https://www.facebook.com/blong1204";
             }}
@@ -83,7 +83,7 @@ function Footer({ initial }: any) {
             <br />
             blong1204
 
-        </p>
+        </p> */}
     </footer>
 }
 
