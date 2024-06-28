@@ -39,7 +39,7 @@ function Home_english({ initial }: any) {
                     Tran Dai Nghia <br /> High School <br /> for the Gifted <br /> Youth Union
                 </h1>
                 <p className="home__description">
-                    Lửa Trần Chuyên truyền đi là không bao giờ tắt
+                    The flame of Tran Chuyen, once kindled, never extinguishes
                 </p>
 
                 {/* <div className="home__details">

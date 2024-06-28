@@ -46,7 +46,7 @@ function Activities_english({ initial }: any) {
     return <section className="activities section container" id='activities'>
         <div className="activities__bg">
             <h2 className="section__title-center activities__title">
-                Popular activities
+                Featured activities
             </h2>
 
             <div className="activities__container grid">
@@ -61,7 +61,7 @@ function Activities_english({ initial }: any) {
                                 <h2 className="activities__card-title">{e.title.replace("/", "")}</h2>
                                 <h3 className="activities__card-subtitle">{e.subtitle}</h3>
                                 <a href={e.link} className="activities__card-button">
-                                    More info <i className="ri-arrow-right-line activities__icon"></i>
+                                    Learn more <i className="ri-arrow-right-line activities__icon"></i>
                                 </a>
                             </div>
                         </div>
