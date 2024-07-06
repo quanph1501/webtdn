@@ -77,6 +77,10 @@ function English() {
         };
     }, []);
 
+    useEffect(() => {
+        document.title="Tran Dai Nghia High School for the Gifted Youth Union"   
+    })
+
     return <Fragment>
         {/* <Header_english initial={initialVar} /> */}
         <Header_english initial={initialVar} />
