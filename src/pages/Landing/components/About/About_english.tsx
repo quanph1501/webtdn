@@ -48,7 +48,7 @@ function About_english({ initial }: any) {
         <div className="about__container grid">
             <div className="about__data">
                 <h2 className="section__title about__title">
-                    Tran Dai Nghia <br /> High School for the Gifted <br /> Youth Unioin
+                    Tran Dai Nghia <br /> High School for the Gifted <br /> Youth Union
                 </h2>
 
                 <p className="about__description">
