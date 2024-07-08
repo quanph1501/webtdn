@@ -16,11 +16,13 @@ const InitialVariable = () => {
         "title": "Liên hệ",
         "link": "#contact",
         "class": ""
-    }, {
-        "title": "BOOKFLIX",
-        "link": "/bookflix",
-        "class": "btn-link"
-    }, {
+    }, 
+    // {
+    //     "title": "BOOKFLIX",
+    //     "link": "/bookflix",
+    //     "class": "btn-link"
+    // }, 
+    {
         "title": "EN",
         "link": "/en",
         "class": "btn-link"
