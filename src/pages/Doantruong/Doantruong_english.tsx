@@ -11,6 +11,9 @@ gsap.registerPlugin(ScrollTrigger);
 // });
 
 function Doantruong_english() {
+    useEffect(() => {
+        document.title="Tran Dai Nghia High School for the Gifted Youth Union"   
+    })
     const btnReturnRef = useRef(null);
     const LogoOverlayRefs = useRef(null);
     const LogoBgRefs = useRef(null);
