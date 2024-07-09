@@ -11,6 +11,7 @@ export { default as BaiVietGocNhinMoi } from './BaiVietGocNhinMoi/BaiVietGocNhin
 export { default as TimSach } from './TimSach/TimSach'
 export { default as LoginRegister } from './LoginRegister/LoginRegister'
 export { default as Clbinfo } from './Clbinfo/Clbinfo'
+export { default as Clbinfo_english } from './Clbinfo/Clbinfo_english'
 export { default as Doantruong } from './Doantruong/Doantruong'
 export { default as Doantruong_english } from './Doantruong/Doantruong_english'
 export { default as Bch } from './Doantruong/Bch'
