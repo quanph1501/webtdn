@@ -249,7 +249,7 @@ function Doantruong_english() {
                                     const [docxText, setDocxText] = useState('');
 
                                     useEffect(() => {
-                                        convertDocxToText(`/bch/${data.id}/gioiThieu_english.docx`)
+                                        convertDocxToText(`../../dist/bch/${data.id}/gioiThieu_english.docx`)
                                             .then((text) => {
                                                 setDocxText(text);
                                             })
@@ -265,10 +265,10 @@ function Doantruong_english() {
                                             <img src="doantruong__about__mobile-icon" alt="" />
                                             <div className="doantruong__about__heading-wrap">
                                                 <div className='doantruong__about-title'>
-                                                    {data.aboutTitle.split('\n').map((part: any, index: number) => (
+                                                    {data.aboutTitleEnglish.split('\n').map((part: any, index: number) => (
                                                         <React.Fragment key={index}>
                                                             {part.trim()}
-                                                            {index !== data.aboutTitle.split('\n').length - 1 && <br />}
+                                                            {index !== data.aboutTitleEnglish.split('\n').length - 1 && <br />}
                                                         </React.Fragment>
                                                     ))}
                                                 </div>
@@ -295,7 +295,7 @@ function Doantruong_english() {
                                                                 window.location.href = '/doantruong/bch2223'
                                                             }}
                                                             className="doantruong__btn">
-                                                            Thông tin khác
+                                                            More info
                                                         </div>
                                                     ) : null
                                             }
