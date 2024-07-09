@@ -8,6 +8,7 @@ import {
     LoginRegister,
     Clbinfo,
     Doantruong,
+    Doantruong_english,
     Bch,
     Activityhot,
     BookInfo,
@@ -18,6 +19,7 @@ import {
 const publicRoutes = [
     { path: "/", compnent: Landing },
     { path: "/doantruong", compnent: Doantruong },
+    { path: "/doantruong/en", compnent: Doantruong_english },
     { path: "/doantruong/bch2223", compnent: Bch },
     { path: "/clbinfo/:id", compnent: Clbinfo },
     { path: "/hots/:id", compnent: Activityhot },

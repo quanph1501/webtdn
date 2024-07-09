@@ -56,7 +56,7 @@ function About_english({ initial }: any) {
                     <br />
                     Youth Union Office is Home in Home
                 </p>
-                <a href="/doantruong" className="button button--flex">
+                <a href="/doantruong/en" className="button button--flex">
                     Learn more <i className="ri-arrow-right-down-line button__icon"></i>
                 </a>
             </div>
