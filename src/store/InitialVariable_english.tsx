@@ -65,25 +65,25 @@ const InitialVariable_english = () => {
     const activities = [
         {
             img: "/activities/3.jpg",
-            title: "Red Flamboyant Flower Campaign",
+            title: "Red Phoenix Flower Campaign",
             subtitle: "Summer volunteer campaign",
-            bq: "Website có sử dụng một số hình ảnh từ Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
-            link: "hots/hpd",
+            bq: "The website uses some images from the Photography - Specture Club and the Press - Communications Club",
+            link: "hots/hpd/en",
             // linkFB: "https://www.facebook.com/759662799498945"
         }
         , {
             img: "/activities/1.jpg",
             title: "Music Festival",
             subtitle: "",
-            bq: "Website có sử dụng một số hình ảnh từ Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
-            link: "hots/lhan",
+            bq: "The website uses some images from the Photography - Specture Club and the Press - Communications Club",
+            link: "hots/lhan/en",
             // linkFB: "https://www.facebook.com/541613061448202"
         }, {
             img: "/activities/2.jpg",
             title: "Honor and Graduation Day",
             subtitle: "",
-            bq: "Website có sử dụng một số hình ảnh từ Dự án khối 12, Câu lạc bộ Nhiếp ảnh - Specture và Câu lạc bộ Báo chí - Truyền thông",
-            link: "hots/lta&th",
+            bq: "The website uses some images from the Photography - Specture Club and the Press - Communications Club",
+            link: "hots/lta&th/en",
             // linkFB: "https://www.facebook.com/576520341290807"
         },
     ]

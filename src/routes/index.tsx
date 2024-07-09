@@ -11,6 +11,7 @@ import {
     Doantruong_english,
     Bch,
     Activityhot,
+    Activityhot_english,
     BookInfo,
     English,
 } from "../pages"
@@ -23,6 +24,7 @@ const publicRoutes = [
     { path: "/doantruong/bch2223", compnent: Bch },
     { path: "/clbinfo/:id", compnent: Clbinfo },
     { path: "/hots/:id", compnent: Activityhot },
+    { path: "/hots/:id/en", compnent: Activityhot_english },
     { path: "/bookflix", compnent: BookflixLanding },
     { path: "/bookflix/gocnhinmoi", compnent: GocNhinMoi },
     { path: "/bookflix/timsach/:searchQueryInURL?", compnent: TimSach },

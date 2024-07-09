@@ -1,4 +1,5 @@
 export { default as Activityhot } from './Activityhot/Activityhot'
+export { default as Activityhot_english } from './Activityhot/Activityhot_english'
 // Hoaphuongdo
 // Lehoiamnhac
 // Letrianvatruongthanh
