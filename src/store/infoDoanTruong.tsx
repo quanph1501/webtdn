@@ -4,6 +4,7 @@ const infoDoanTruong = [
         id: "doantruong",
         title: "Đoàn trường",
         aboutTitle: "GIỚI THIỆU",
+        aboutTitleEnglish: "INTRODUCING",
     },
     {
         id: "coPhuc",
