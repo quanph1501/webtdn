@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { useEffect, Fragment } from 'react'
 import './Bch.css'
 import bch2223 from './bch2223'
 function bch_english() {
+    useEffect(() => {
+        document.title="Tran Dai Nghia High School for the Gifted Youth Union"   
+    })
     console.log(bch2223[0].name);
 
     return <Fragment>

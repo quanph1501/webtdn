@@ -227,10 +227,10 @@ function Clbinfo_english({ match }: any) {
             />
             <div className="clbinfo__bg" ref={backgroundRef}>
                 <h2 className={`section__title-center clbinfo__title ${dataClb?.TextColor} clbinfo__bg-limitedWidth`}>
-                    {dataClb?.name.split('/').map((part, index) => (
+                    {dataClb?.nameEn.split('/').map((part, index) => (
                         <React.Fragment key={index}>
                             {part}
-                            {index !== dataClb.name.split('/').length - 1 && <br />}
+                            {index !== dataClb.nameEn.split('/').length - 1 && <br />}
                         </React.Fragment>
                     ))}
                 </h2>
