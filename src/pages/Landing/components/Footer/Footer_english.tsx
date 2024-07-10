@@ -73,17 +73,17 @@ function Footer_english({ initial }: any) {
             </div> */}
         </div>
 
-        {/* <p
+        <p
             onClick={() => {
                 window.location.href = "https://www.facebook.com/blong1204";
             }}
             className="footer__copy">
-            Website có sử dụng một số hình ảnh từ Câu lạc bộ - Dự án trực thuộc Đoàn trường.
+            Website uses some images from Clubs - Projects under the School Union.
             <br />
             <br />
             blong1204
 
-        </p> */}
+        </p>
     </footer>
 }
 

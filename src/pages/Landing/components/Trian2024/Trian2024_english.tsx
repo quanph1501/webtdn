@@ -378,9 +378,7 @@ function Trian2024_english() {
             </div> */}
         <div className="trian_container container">
             <div className="trian__card">
-                <h1 className="card__title"> INTRODUCING THE WEBSITE OF <br />TRAN DAI NGHIA HIGH SCHOOL FOR THE GIFTED <br /> YOUTH UNION</h1>
-                <p className="card__description"> The website of Tran Dai Nghia High School for the Gifted Youth Union is established by the "Digital Citizens" team which belonged to The 2023 Red Phoenix Summer Volunteer Campaign. The campaign is a great environment for Youth Union members and the youth to learn about the role, mission, school values ​​as well as activities of the School Union and the affiliated Clubs and Projects. </p>
-                <h1 className="card__title2"> INTRODUCING THE FOUNDERS </h1>
+                <h1 className="card__title"> INTRODUCING CODE TEAM 2024</h1>
 
                 <div className="card__container">
                     {
