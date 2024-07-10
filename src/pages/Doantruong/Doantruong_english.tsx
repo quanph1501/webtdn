@@ -295,7 +295,7 @@ function Doantruong_english() {
                                                     (
                                                         <div
                                                             onClick={() => {
-                                                                window.location.href = '/doantruong/bch2223'
+                                                                window.location.href = '/doantruong/bch2223/en'
                                                             }}
                                                             className="doantruong__btn">
                                                             More info

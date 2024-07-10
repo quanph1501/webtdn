@@ -10,7 +10,7 @@ function Footer_english({ initial }: any) {
 
                 <h3 className="footer__title">
                     Subscribe to our newsletter
-                    <br /> to stay up with the latest information
+                    <br /> to keep up with the latest information
                 </h3>
 
                 <div className="footer__subscribe">
@@ -39,7 +39,7 @@ function Footer_english({ initial }: any) {
             </div>
 
             <div className="footer__content">
-                <h3 className="footer__title">Contact</h3>
+                <h3 className="footer__title">Contact us via</h3>
 
                 <ul className="footer__data">
                     {/* <li className="footer__information">Cô Phúc: 070 280 6028 <br />(Trợ lý thanh niên)</li>
