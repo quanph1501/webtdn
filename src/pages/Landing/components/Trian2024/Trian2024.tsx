@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Observable, fromEvent, merge } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { TweenLite, Power1 } from 'gsap';
-import { trian } from '../../../../store';
+import { trian2024 } from '../../../../store';
 import "./Trian.css"
 
 enum SquiggleState {
@@ -36,9 +36,9 @@ interface SquiggleSettings {
 }
 
 
-function Trian_english() {
-    const trianData = trian.trianData
-    const trianDatalist = trian.trianDatalist
+function Trian2024() {
+    const trianData = trian2024.trianData2024
+    const trianDatalist = trian2024.trianDatalist
     const boxRef = useRef<HTMLDivElement | null>(null);
     const effectRef = useRef<HTMLDivElement | null>(null);
     const svgRef = useRef<SVGSVGElement | null>(null);
@@ -378,9 +378,7 @@ function Trian_english() {
             </div> */}
         <div className="trian_container container">
             <div className="trian__card">
-                <h1 className="card__title"> INTRODUCING THE WEBSITE OF <br />TRAN DAI NGHIA HIGH SCHOOL FOR THE GIFTED <br /> YOUTH UNION</h1>
-                <p className="card__description"> The website of Tran Dai Nghia High School for the Gifted Youth Union is established by the "Digital Citizens" team which belonged to The 2023 Red Phoenix Summer Volunteer Campaign. The campaign is a great environment for Youth Union members and the youth to learn about the role, mission, school values ​​as well as activities of the School Union and the affiliated Clubs and Projects. </p>
-                <h1 className="card__title2"> INTRODUCING THE FOUNDERS </h1>
+                <h1 className="card__title"> GIỚI THIỆU TEAM CODE 2024</h1>
 
                 <div className="card__container">
                     {
@@ -388,7 +386,7 @@ function Trian_english() {
                             <article key={i} className="card__article">
                                 <div className="card__data">
                                     <h1 className="card__mission">{data.mission}</h1>
-                                    <img src={`./trian/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    <img src={`./trian2024/${data.id}.jpg`} alt="card image" className="card__img" />
                                     {/* <h1 className="card__name">{
                                         data.title.split('/').map((part, index) => (
                                             <React.Fragment key={index}>
@@ -407,7 +405,7 @@ function Trian_english() {
             </div>
             <p className="card__support">
                 <span className="card__support-bold">
-                    And volunteers of "Digital Citizens" team:&nbsp;
+                    Và các bạn chiến sĩ thuộc đội hình chuyên Công dân số 2024:&nbsp;
                 </span>
                 Anh Thư (CH 2124), Quỳnh Vy (CA2 2225), Gia Huy (TH3 2124), Linh Mai (CA2 2225), Vy An (CH 2124), Phương Linh (CH 2124), Hoàng Thư (CH 2124)</p>
         </div>
@@ -416,4 +414,4 @@ function Trian_english() {
 
 }
 
-export default Trian_english
+export default Trian2024

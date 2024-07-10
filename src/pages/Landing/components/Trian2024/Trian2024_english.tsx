@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Observable, fromEvent, merge } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { TweenLite, Power1 } from 'gsap';
-import { trian } from '../../../../store';
+import { trian2024 } from '../../../../store';
 import "./Trian.css"
 
 enum SquiggleState {
@@ -36,9 +36,9 @@ interface SquiggleSettings {
 }
 
 
-function Trian_english() {
-    const trianData = trian.trianData
-    const trianDatalist = trian.trianDatalist
+function Trian2024_english() {
+    const trianData = trian2024.trianData2024
+    const trianDatalist = trian2024.trianDatalist
     const boxRef = useRef<HTMLDivElement | null>(null);
     const effectRef = useRef<HTMLDivElement | null>(null);
     const svgRef = useRef<SVGSVGElement | null>(null);
@@ -388,7 +388,7 @@ function Trian_english() {
                             <article key={i} className="card__article">
                                 <div className="card__data">
                                     <h1 className="card__mission">{data.mission}</h1>
-                                    <img src={`./trian/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    <img src={`./trian2024/${data.id}.jpg`} alt="card image" className="card__img" />
                                     {/* <h1 className="card__name">{
                                         data.title.split('/').map((part, index) => (
                                             <React.Fragment key={index}>
@@ -416,4 +416,4 @@ function Trian_english() {
 
 }
 
-export default Trian_english
+export default Trian2024_english
