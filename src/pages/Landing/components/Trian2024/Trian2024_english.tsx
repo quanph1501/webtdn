@@ -378,7 +378,7 @@ function Trian2024_english() {
             </div> */}
         <div className="trian_container container">
             <div className="trian__card">
-                <h1 className="card__title"> INTRODUCING CODE TEAM 2024</h1>
+                <h1 className="card__title">INTRODUCING THE CODE TEAM 2024</h1>
 
                 <div className="card__container">
                     {
@@ -405,7 +405,7 @@ function Trian2024_english() {
             </div>
             <p className="card__support">
                 <span className="card__support-bold">
-                    And volunteers of "Digital Citizens" team:&nbsp;
+                    And volunteers of "Digital Citizens" team 2024:&nbsp;
                 </span>
                 Anh Thư (CH 2124), Quỳnh Vy (CA2 2225), Gia Huy (TH3 2124), Linh Mai (CA2 2225), Vy An (CH 2124), Phương Linh (CH 2124), Hoàng Thư (CH 2124)</p>
         </div>
