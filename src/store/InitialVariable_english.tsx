@@ -86,6 +86,14 @@ const InitialVariable_english = () => {
             link: "hots/lta&th/en",
             // linkFB: "https://www.facebook.com/576520341290807"
         },
+        {
+            img: "/activities/4.jpg",
+            title: "TRAN DAI NGHIA OPEN DAY",
+            subtitle: "",
+            bq: "The website uses some images from the Photography - Specture Club and the Press - Communications Club",
+            link: "hots/ntnhdcclb&da/en",
+            // linkFB: "https://www.facebook.com/759662799498945"
+        },
     ]
 
     return {
