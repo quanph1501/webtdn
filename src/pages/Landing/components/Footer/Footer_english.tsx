@@ -5,7 +5,7 @@ function Footer_english({ initial }: any) {
         <div className="footer__container container grid">
             <div className="footer__content">
                 <a href="#" className="footer__logo">
-                    <img src="/logoDT.png" className='footer__logo-icon' alt="" />
+                    <img src="/logoDTEnglish.png" className='footer__logo-icon' alt="" />
                 </a>
 
                 <h3 className="footer__title">
@@ -26,12 +26,6 @@ function Footer_english({ initial }: any) {
                 <h3 className="footer__title">Address</h3>
 
                 <ul className="footer__data">
-                    <a href="https://goo.gl/maps/skM11oc3NCbksCvF9" target='_blank' className="footer__social-link">
-                        <li className="footer__information">20 Ly Tu Trong St., Ben Nghe Ward, District 1, HCMC.</li>
-                    </a>
-                    <a href="https://goo.gl/maps/4E1FoPT91D9Fkn4x9" target='_blank' className="footer__social-link">
-                        <li className="footer__information">53 Nguyen Du St., Ben Nghe Ward, District 1, HCMC.</li>
-                    </a>
                     <a href="https://goo.gl/maps/weMtiVsQC3a4m1rB7" target='_blank' className="footer__social-link">
                         <li className="footer__information">Lot P2 Resettlement Area 38.4 ha, An Khanh Ward, Thu Duc City.</li>
                     </a>

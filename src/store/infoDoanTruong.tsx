@@ -9,16 +9,16 @@ const infoDoanTruong = [
     {
         id: "coPhuc",
         title: "Cô Phúc",
-        titleEnglish: "Ms. Phuc",
+        titleEnglish: "Mrs. Phuc",
         aboutTitle: "Cô\n CHÂU HỒNG PHÚC",
-        aboutTitleEnglish: "Ms.\n CHAU HONG PHUC",
+        aboutTitleEnglish: "Mrs.\n CHÂU HỒNG PHÚC",
     },
     {
         id: "thayPhuong",
         title: "Thầy Phương",
         titleEnglish: "Mr. Phuong",
         aboutTitle: "Thầy\n ĐẶNG ĐÔNG PHƯƠNG",
-        aboutTitleEnglish: "Mr.\n DANG DONG PHUONG",
+        aboutTitleEnglish: "Mr.\n ĐẶNG ĐÔNG PHƯƠNG",
     },
 ]
 
