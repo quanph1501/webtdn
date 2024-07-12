@@ -27,7 +27,7 @@ function Activityhot_english({ match }: any) {
     }
 
     useEffect(() => {
-        convertDocxToText(`../../dist/activities/${id}/gioiThieuEnglish.docx`)
+        convertDocxToText(`/activities/${id}/gioiThieuEnglish.docx`)
             .then((text) => {
                 setDocxText(text);
             })

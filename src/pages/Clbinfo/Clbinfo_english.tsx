@@ -34,7 +34,7 @@ function Clbinfo_english({ match }: any) {
 
 
     useEffect(() => {
-        convertDocxToText(`../../dist/clbinfo/${dataClb?.id}/gioiThieuEnglish.docx`)
+        convertDocxToText(`/clbinfo/${dataClb?.id}/gioiThieuEnglish.docx`)
             .then((text) => {
                 setDocxText(text);
             })

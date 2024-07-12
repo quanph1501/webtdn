@@ -252,7 +252,7 @@ function Doantruong_english() {
                                     const [docxText, setDocxText] = useState('');
 
                                     useEffect(() => {
-                                        convertDocxToText(`../../dist/bch/${data.id}/gioiThieuEnglish.docx`)
+                                        convertDocxToText(`/bch/${data.id}/gioiThieuEnglish.docx`)
                                             .then((text) => {
                                                 setDocxText(text);
                                             })
