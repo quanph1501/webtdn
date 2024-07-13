@@ -5,51 +5,38 @@ const trianData2024 = [
         id: "an",
         title: "Nguyễn Trọng Thiên Ân",
         aboutTitle: "CTin - 2326",
-        mission: "Coder"
+        mission: "Coder",
+        fblink: "https://www.facebook.com/thienan.nguyentrong.3",
     },
     {
         id: "quan",
         title: "Phan Hoàng Quân",
         aboutTitle: "CTin - 2326",
-        mission: "Coder"
+        mission: "Coder",
+        fblink: "https://www.facebook.com/phquan08",
     },
     {
         id: "vuong",
         title: "Nguyễn Vũ An Vượng",
         aboutTitle: "CTin - 2326",
-        mission: "Coder"
+        mission: "Coder",
+        fblink: "https://www.facebook.com/profile.php?id=100081891905183",
     },
 ]
 
 const trianDatalist = [
-    {
-        name: " Anh Thư",
-        class: "(CH 2124)"
-    },
-    {
-        name: " Quỳnh Vy",
-        class: "(CA2 2225)"
-    },
-    {
-        name: " Gia Huy",
-        class: "(TH3 2124)"
-    },
-    {
-        name: " Linh Mai",
-        class: "(CA2 2225)"
-    },
-    {
-        name: " Vy An",
-        class: "(CH 2124)"
-    },
-    {
-        name: " Phương Linh",
-        class: "(CH 2124)"
-    },
-    {
-        name: " Hoàng Thư",
-        class: "(CH 2124)"
-    },
+    {name: " Minh Tú", class: "A2 2326"},
+    {name: " Minh Thư", class: "CA1 2326"},
+    {name: " Quốc Thống", class: "CA1 2326"},
+    {name: " Gia Huy", class: "CA2 2326"},
+    {name: " Phương Trúc", class: "CA2 2326"},
+    {name: " Quang Lộc", class: "CA2 2326"},
+    {name: " Thiên An", class: "CTin 2326"},
+    {name: " Mạnh Cường", class: "CTin 2326"},
+    {name: " Thành Quý", class: "TH1 2326"},
+    {name: " Gia Phú", class: "TH2 2326"},
+    {name: " Hoàng Huy", class: "TH2 2326"},
+    {name: " Gia Minh", class: "TH2 2326"}
 ]
 
 export default { trianData2024, trianDatalist };

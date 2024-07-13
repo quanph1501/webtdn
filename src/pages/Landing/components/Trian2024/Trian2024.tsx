@@ -386,7 +386,9 @@ function Trian2024() {
                             <article key={i} className="card__article">
                                 <div className="card__data">
                                     <h1 className="card__mission">{data.mission}</h1>
-                                    <img src={`./trian2024/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    <a href={data.fblink} target="_blank">
+                                        <img src={`./trian2024/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    </a>
                                     {/* <h1 className="card__name">{
                                         data.title.split('/').map((part, index) => (
                                             <React.Fragment key={index}>

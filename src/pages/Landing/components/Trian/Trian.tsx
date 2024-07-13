@@ -388,7 +388,9 @@ function Trian() {
                             <article key={i} className="card__article">
                                 <div className="card__data">
                                     <h1 className="card__mission">{data.mission}</h1>
-                                    <img src={`./trian/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    <a href={data.fblink} target={data.fblink != "#trian" ? "_blank": ""}>
+                                        <img src={`./trian/${data.id}.jpg`} alt="card image" className="card__img" />
+                                    </a>
                                     {/* <h1 className="card__name">{
                                         data.title.split('/').map((part, index) => (
                                             <React.Fragment key={index}>

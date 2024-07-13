@@ -5,19 +5,22 @@ const trianData = [
         id: "long",
         title: "Lê Bảo Long",
         aboutTitle: "CTin - 2124",
-        mission: "Coder"
+        mission: "Coder",
+        fblink: "#trian",
     },
     {
         id: "nghi",
         title: "Nguyễn Đoàn Nhật Nghi",
         aboutTitle: "CA2 - 2225",
-        mission: "Content"
+        mission: "Content",
+        fblink: "#trian",
     },
     {
         id: "nghia",
         title: "Nguyễn Xuân Nghĩa",
         aboutTitle: "CTin - 2124",
-        mission: "Coder"
+        mission: "Coder",
+        fblink: "https://www.facebook.com/xuanngai06",
     },
 ]
 
