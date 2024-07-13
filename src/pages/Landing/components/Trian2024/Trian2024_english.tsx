@@ -409,7 +409,7 @@ function Trian2024_english() {
                 <span className="card__support-bold">
                     And volunteers of "Digital Citizens" team 2024:&nbsp;
                 </span>
-                Minh Tú (A2 2326), Minh Thư (CA1 2326), Quốc Thống (CA1 2326), Gia Huy (CA2 2326), Phương Trúc (CA2 2326), Quang Lộc (CA2 2326), Thiên An (CTin 2326), Mạnh Cường (CTin 2326), Thành Quý (TH1 2326), Gia Phú (TH2 2326), Hoàng Huy (TH2 2326), Gia Minh (TH2 2326)</p>
+                Xuân Như (A1 2326), Ngọc Hân (A1 2326), Phương Thảo (CV 2326), Minh Tú (A2 2326), Minh Thư (CA1 2326), Quốc Thống (CA1 2326), Gia Huy (CA2 2326), Phương Trúc (CA2 2326), Quang Lộc (CA2 2326), Thiên An (CTin 2326), Mạnh Cường (CTin 2326), Thành Quý (TH1 2326), Gia Phú (TH2 2326), Hoàng Huy (TH2 2326), Gia Minh (TH2 2326)</p>
         </div>
     </section>
     // </div >
