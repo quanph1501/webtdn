@@ -387,20 +387,20 @@ function Trian_english() {
                         trianData.map((data, i) => (
                             <article key={i} className="card__article">
                                 <div className="card__data">
-                                    <h1 className="card__mission">{data.mission}</h1>
                                     <a href={data.fblink} target={data.fblink != "#trian" ? "_blank": ""}>
+                                        <h1 className="card__mission">{data.mission}</h1>
                                         <img src={`./trian/${data.id}.jpg`} alt="card image" className="card__img" />
-                                    </a>
                                     {/* <h1 className="card__name">{
                                         data.title.split('/').map((part, index) => (
                                             <React.Fragment key={index}>
-                                                {part}
-                                                {index !== data.title.split('/').length - 1 && <br />}
+                                            {part}
+                                            {index !== data.title.split('/').length - 1 && <br />}
                                             </React.Fragment>
-                                        ))
-                                    }</h1> */}
-                                    <h1 className="card__name">{data.title}</h1>
-                                    <p className="card__class">{data.aboutTitle}</p>
+                                            ))
+                                            }</h1> */}
+                                        <h1 className="card__name">{data.title}</h1>
+                                        <p className="card__class">{data.aboutTitle}</p>
+                                    </a>
                                 </div>
                             </article>
                         ))
